@@ -1,10 +1,278 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
+    <title>Labib Travel</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Labib travel</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Sofia+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="./Images/Group 40071 (2).png" alt="" class="logo-img" />
+        <label class="logo-text">Labib <span class="color">Travel</span></label>
+      </div>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#">Packages</a></li>
+        <li><a href="#">Testimonial</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <section>
+      <!-- banner part start  -->
+      <div class="header-banner">
+        <div class="header-banner--text">
+          <div class="header-banner--title">Explore Your Travel</div>
+          <div class="header-banner--details">
+            "Visit us for unrivaled comfort, genuine warmth, personalized ""
+          </div>
+          <div class="header-bottom">
+            <div class="header-bottom-grid">
+              <div class="input-box">
+                <input
+                  type="text"
+                  placeholder="Where go"
+                  class="input"
+                  name=""
+                  id=""
+                />
+              </div>
+              <div class="input-box">
+                <select name="Select Type" class="input" id="cars">
+                  <option value="select">When ?</option>
+                  <option value="single">today</option>
+                  <option value="couple">tommorrow</option>
+                </select>
+              </div>
+              <div class="input-box">
+                <select name="Select Type" class="input" id="cars">
+                  <option value="select">Select Type</option>
+                  <option value="single">Single</option>
+                  <option value="couple">couple</option>
+                </select>
+              </div>
+              <button class="btn-search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <span>Find Now</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- banner part end -->
+      <!-- popular start  -->
+      <div class="popular">
+        <div class="popular-left-part">
+          <div class="popular-title">Our Popular Tours</div>
+          <div class="popular-description">
+            Our website is designed for accessibility, providing intuitive
+            interfaces and a straightforward booking process. Explore detailed
+            tour descriptions, browse stunning visuals, and easily make
+            reservations with confidence.
+          </div>
+          <ul>
+            <li>
+              Our tour site promises an immersive exploration of captivating
+              destinations around the globe
+            </li>
+            <li>
+              Our commitment to quality extends to the meticulous crafting of
+              each tour
+            </li>
+            <li>
+              Navigating urney is made easy with our user-friendly platform
+            </li>
+          </ul>
+          <div class="popular-description">
+            We prioritize transparency, offering clear information on tour
+            costs, inclusions, a.
+          </div>
+          <button class="popular-btn">Read More</button>
+        </div>
+        <img src="./Images/Rectangle 4.png" alt="" class="popular-img" />
+      </div>
+      <!-- popular end -->
+      <!-- Destination start -->
+      <div class="destination">
+        <div class="destination-title">Choose Your Destination</div>
+
+        <div class="destination-grid">
+          <figure class="img1">
+            <img
+              src="./Images/Rectangle 5.png"
+              alt=""
+              class="destination-img"
+            />
+            <div class="destination-text">Maldives</div>
+          </figure>
+          <figure class="img2">
+            <img
+              src="./Images/Rectangle 8.png"
+              alt=""
+              class="destination-img"
+            />
+            <div class="destination-text">Indonesia</div>
+          </figure>
+          <figure class="img3">
+            <img
+              src="./Images/Rectangle 6.png"
+              alt=""
+              class="destination-img"
+            />
+            <div class="destination-text">Srilanka</div>
+          </figure>
+          <figure class="img4">
+            <img
+              src="./Images/Rectangle 7.png"
+              alt=""
+              class="destination-img"
+            />
+            <div class="destination-text">North America</div>
+          </figure>
+
+          <figure class="img5">
+            <img
+              src="./Images/Rectangle 9.png"
+              alt=""
+              class="destination-img"
+            />
+            <div class="destination-text">Kashmir</div>
+          </figure>
+
+          <figure class="img6">
+            <img
+              src="./Images/Rectangle 11.png"
+              alt=""
+              class="destination-img"
+            />
+            <div class="destination-text">Bangladesh</div>
+          </figure>
+          <figure class="img7">
+            <img
+              src="./Images/Rectangle 10.png"
+              alt=""
+              class="destination-img"
+            />
+            <div class="destination-text">Bandarban</div>
+          </figure>
+        </div>
+      </div>
+      <!-- Destination end  -->
+      <!-- why Choose use start  -->
+      <div class="why-us">
+        <div class="why-us-title">Why Choose Us</div>
+        <div class="why-us-description">
+          Choose us for unparalleled service, tailored experiences
+        </div>
+        <div class="grid-container">
+          <div class="box1 box">
+            <img src="./Images/hotel 1.png" alt="" class="box-img" />
+            <div class="box-title">Handpicked Hotels</div>
+            <div class="box-description">
+              Hotels offer comfortable accommodations, ranging from
+              budget-friendly to luxurious,
+            </div>
+          </div>
+          <div class="box2 box">
+            <img src="./Images/map 1.png" alt="" class="box-img" />
+            <div class="box-title">World Class Service</div>
+            <div class="box-description">
+              Exceptional service exceeds expectations, anticipating needs, and
+              fostering satisfaction.
+            </div>
+          </div>
+          <div></div>
+          <div class="box3 box">
+            <img src="./Images/price-tag 1.png" alt="" class="box-img" />
+            <div class="box-title">Best Price Guarantee</div>
+            <div class="box-description">
+              Our commitment to the best price ensures affordability without
+              compromising quality.
+            </div>
+          </div>
+          <div></div>
+        </div>
+      </div>
+      <!-- why choose us end -->
+
+      <!-- newsletter start  -->
+      <div class="newsletter">
+        <div class="news">
+          <div class="content">
+            <h2>Newsletter</h2>
+            <div class="newsletter-description">
+              Get your daily dose of travel news & tips.
+            </div>
+            <div class="form">
+              <div class="inputBox">
+                <input type="text" required /> <i>Enter your name</i>
+              </div>
+
+              <div class="inputBox">
+                <input type="text" required /> <i>enter your email</i>
+              </div>
+
+              <div class="inputBox">
+                <input type="submit" value="Subscribe" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <figure class="newsletter-right">
+          <img src="./Images/Rectangle 8 (1).png" alt="" class="news-img" />
+          <div class="red-box">
+            <div class="top-title">Travel.com</div>
+            <div class="bottom-title">Save up to 70%</div>
+          </div>
+        </figure>
+      </div>
+      <!-- newsletter end -->
+      <!-- footer start  -->
+      <div class="footer">
+        <div class="logo">
+          <img src="./Images/Group 40071 (2).png" alt="" class="logo-img" />
+          <label class="logo-text"
+            >Labib <span class="color">Travel</span></label
+          >
+        </div>
+        <div class="footer-desc">
+          Touring is a captivating journey that unveils diverse cultures,
+          landscapes, and experiences. Whether exploring historic landmarks,
+          vibrant cities, or pristine natural wonders, each tour offers a
+          tapestry of memories.
+        </div>
+        <div class="footer-icon">
+          <img src="./Images/1.png" alt="" class="icon" />
+          <img src="./Images/2.png" alt="" class="icon" />
+          <img src="./Images/3.png" alt="" class="icon" />
+          <img src="./Images/4.png" alt="" class="icon" />
+        </div>
+
+        <div class="border"></div>
+
+        <div class="copyright">2017, All Rights Reserved.</div>
+      </div>
+      <!-- footer end -->
+    </section>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/c1f9146041.js"
+    crossorigin="anonymous"
+  ></script>
 </html>
